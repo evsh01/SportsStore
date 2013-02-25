@@ -33,6 +33,8 @@ namespace SportsStore.WebUI
 
         protected void Application_Start()
         {
+            // Entry point
+
             AreaRegistration.RegisterAllAreas();
 
             RegisterGlobalFilters(GlobalFilters.Filters);
